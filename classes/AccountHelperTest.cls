@@ -11,7 +11,7 @@ public class AccountHelperTest {
         // Act
         Account result = helper.createAccount(expectedName);
 
-        // Assert
+        // Assertefefer
         System.assertNotEquals(null, result);
         System.assertEquals(expectedName, result.Name);
     }
