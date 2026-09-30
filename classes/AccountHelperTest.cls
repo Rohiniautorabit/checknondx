@@ -13,7 +13,6 @@ public class AccountHelperTest {
 
         // Assert
         System.assertNotEquals(null, result);
-  System.assertNotEquals(null, result);
         System.assertEquals(expectedName, result.Name);
     }
 }
